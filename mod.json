@@ -1,0 +1,29 @@
+{
+	"geode": "3.8.1",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "omgrod.hydrogen",
+	"name": "Hydrogen",
+	"version": "v1.0.0",
+	"developer": "OmgRod",
+	"description": "A simple web browser made for Geometry Dash",
+	"resources": {
+		"sprites": ["res/sprites/*"]
+	},
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"importance": "required",
+			"version": ">=1.15.0"
+		},
+		{
+			"id": "geode.custom-keybinds",
+			"importance": "required",
+			"version": ">=1.9.0"
+		}
+	]
+}
